@@ -6,8 +6,20 @@ export default class ProjectBox extends Component {
         return (
             <div className='Project-box'>
                 <img src={this.props.projectBanner} className="App-logo" alt={this.props.bannerAlt} />
-                <h1>{this.props.projectName}</h1>
-                <h3>{this.props.projectDescription}</h3>
+
+                <div className='Flex-column'>
+                    <div className='Project-info'>
+                        <h1>{this.props.projectName}<br></br></h1>
+                        <h3>{this.props.projectDescription}</h3>
+                    </div>
+                    <a
+                        className="App-link"
+                        href={this.props.projectUrl}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Learn More
+                </a>
+                </div>
             </div>
         )
     }

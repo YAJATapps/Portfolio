@@ -10,8 +10,8 @@ function App() {
       <Header />
 
       <ProjectsContainer>
-        <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' />
-        <ProjectBox projectName='PicScan' projectDescription='Document Scanner App' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' />
+        <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' projectUrl='https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' />
+        <ProjectBox projectName='PicScan' projectDescription='Document Scanner App' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' projectUrl='https://play.google.com/store/apps/details?id=com.picscan' />
       </ProjectsContainer>
     </>
   );

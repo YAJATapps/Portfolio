@@ -10,3 +10,19 @@
     width: 100%;
     height: 300px;
 }
+
+.App-link {
+    color: #61dafb;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 46px;
+    text-decoration: none;
+}
+
+.Flex-column {
+    display: flex;
+}
+
+.Project-info {
+    flex: 1;
+}
