@@ -1,0 +1,7 @@
+.Project-box {
+    padding: 2vh 5vw 4vh;
+    flex: 1;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 32px;
+}
