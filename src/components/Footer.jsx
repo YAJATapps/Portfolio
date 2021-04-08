@@ -4,7 +4,7 @@ import './../css/Footer.css';
 export default class Footer extends Component {
     render() {
         return (
-            <div>
+            <footer>
                 <hr></hr>
 
                 <div className='App-footer'>
@@ -13,7 +13,7 @@ export default class Footer extends Component {
 
                     <a
                         className="Footer-link"
-                        href='/contact'
+                        href='mailto:yajatapps3@gmail.com'
                         target="_blank"
                         rel="noopener noreferrer">
                         Contact
@@ -27,7 +27,7 @@ export default class Footer extends Component {
                         View Source
                     </a>
                 </div>
-            </div>
+            </footer>
         )
     }
 }
