@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import ProjectBox from './components/ProjectBox';
 import ProjectsContainer from './components/ProjectsContainer';
+import Footer from './components/Footer';
 
 import postifySite from './img/postify-site.png';
 import messengerSite from './img/messenger-site.png';
@@ -21,7 +22,6 @@ function App() {
         <ProjectBox projectName='Messenger' projectDescription='The frontend of a test messenger. Not completed.' projectBanner={messengerSite} bannerAlt='Messenger banner logo' projectUrl='https://github.com/YAJATapps/Messenger' />
       </ProjectsContainer>
 
-
       <ProjectsContainer>
         <ProjectBox projectName='Pear Launcher Website' projectDescription='Website for Pear Launcher.' projectBanner={pearSite} bannerAlt='Pear Launcher Site banner logo' projectUrl='https://pearlauncher.github.io/about.html' />
         <ProjectBox projectName='Weather Site' projectDescription='A react app that uses open weather map API.' projectBanner={weatherSite} bannerAlt='Weather site banner logo' projectUrl='https://github.com/YAJATapps/WeatherSite' />
@@ -33,9 +33,11 @@ function App() {
       </ProjectsContainer>
 
       <ProjectsContainer>
-        <ProjectBox projectName='Weather App' projectDescription='University Project for App Development course.' projectBanner={weatherBanner} bannerAlt='Weather App banner logo' projectUrl='https://github.com/YAJATapps/WeatherApp' />
+        <ProjectBox projectName='Weather App' projectDescription='University Project for Mobile App Development course.' projectBanner={weatherBanner} bannerAlt='Weather App banner logo' projectUrl='https://github.com/YAJATapps/WeatherApp' />
         <ProjectBox projectName='Reminder App' projectDescription='University Project for Human computer interaction course.' projectBanner={reminderBanner} bannerAlt='Reminder App banner logo' projectUrl='https://github.com/YAJATapps/ReminderApp' />
       </ProjectsContainer>
+
+      <Footer />
     </>
   );
 }

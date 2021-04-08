@@ -18,7 +18,7 @@ export default class ProjectBox extends Component {
                         target="_blank"
                         rel="noopener noreferrer">
                         Learn More
-                </a>
+                    </a>
                 </div>
             </div>
         )
