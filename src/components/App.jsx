@@ -1,16 +1,16 @@
-import Header from './components/Header';
-import ProjectBox from './components/ProjectBox';
-import ProjectsContainer from './components/ProjectsContainer';
-import Footer from './components/Footer';
+import Header from './Header';
+import ProjectBox from './ProjectBox';
+import ProjectsContainer from './ProjectsContainer';
+import Footer from './Footer';
 
-import postifySite from './img/postify-site.png';
-import messengerSite from './img/messenger-site.png';
-import pearSite from './img/pear-site.png';
-import weatherSite from './img/weather-site.png';
-import pearBanner from './img/pear-banner.png';
-import picscanBanner from './img/picscan-banner.png';
-import weatherBanner from './img/weather-banner.png';
-import reminderBanner from './img/reminder-banner.png';
+import postifySite from './../img/postify-site.png';
+import messengerSite from './../img/messenger-site.png';
+import pearSite from './../img/pear-site.png';
+import weatherSite from './../img/weather-site.png';
+import pearBanner from './../img/pear-banner.png';
+import picscanBanner from './../img/picscan-banner.png';
+import weatherBanner from './../img/weather-banner.png';
+import reminderBanner from './../img/reminder-banner.png';
 
 function App() {
   return (

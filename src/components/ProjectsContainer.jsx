@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './ProjectsContainer.css';
+import './../css/ProjectsContainer.css';
 
 export default class ProjectsContainer extends Component {
     render() {
