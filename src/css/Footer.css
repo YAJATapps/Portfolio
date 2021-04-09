@@ -2,7 +2,7 @@
     min-height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 16px;
 }
 
@@ -17,12 +17,9 @@ hr {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 
 .copyright {
     display: inline-block;
     color: grey;
-    margin-right: 24px;
 }
