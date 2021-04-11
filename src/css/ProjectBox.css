@@ -15,16 +15,13 @@
     color: #61dafb;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 46px;
+    margin-top: 12px;
     text-decoration: none;
 }
 
 .Flex-column {
     display: flex;
-}
-
-.Project-info {
-    flex: 1;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 800px) {
