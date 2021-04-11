@@ -24,7 +24,7 @@ function App() {
 
       <ProjectsContainer>
         <ProjectBox projectName='Pear Launcher Website' projectDescription='Website for Pear Launcher.' projectBanner={pearSite} bannerAlt='Pear Launcher Site banner logo' buttons={{ website: 'https://pearlauncher.github.io/about.html', github: 'https://github.com/PearLauncher/pearlauncher.github.io' }} />
-        <ProjectBox projectName='Weather Site' projectDescription='A react app that uses open weather map API.' projectBanner={weatherSite} bannerAlt='Weather site banner logo' buttons={{ github: 'https://github.com/YAJATapps/WeatherSite' }} />
+        <ProjectBox projectName='Weather Site' projectDescription='A react app that uses open weather map API.' projectBanner={weatherSite} bannerAlt='Weather site banner logo' buttons={{ website: 'https://weathersite.yajatkumar.com', github: 'https://github.com/YAJATapps/WeatherSite' }} />
       </ProjectsContainer>
 
       <ProjectsContainer>
