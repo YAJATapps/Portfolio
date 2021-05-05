@@ -12,6 +12,7 @@ import picscanBanner from './../img/picscan-banner.png';
 import weatherBanner from './../img/weather-banner.png';
 import reminderBanner from './../img/reminder-banner.png';
 
+// A function to return main screen of the app
 function App() {
   return (
     <>

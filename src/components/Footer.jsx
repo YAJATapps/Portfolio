@@ -1,15 +1,22 @@
 import React, { Component } from 'react'
 import './../css/Footer.css';
 
+// A footer with copyright text, contact link and source link
 export default class Footer extends Component {
+
+    // Render this component
     render() {
         return (
             <footer>
                 <hr></hr>
 
-                <div className='App-footer'>
+                <div
+                    className='App-footer'>
 
-                    <span className='copyright'>&#169; 2021 Yajat Kumar</span>
+                    <span
+                        className='copyright'>
+                        &#169; 2021 Yajat Kumar
+                    </span>
 
                     <a
                         className="Footer-link"
@@ -30,4 +37,5 @@ export default class Footer extends Component {
             </footer>
         )
     }
+
 }
