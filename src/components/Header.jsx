@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './../img/logo.svg';
+import logo from './../img/logo.png';
 import './../css/Header.css';
 
 // The header with icon and text
