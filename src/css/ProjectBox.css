@@ -1,9 +1,10 @@
 .Project-box {
-    padding: 2vh 5vw 4vh;
+    padding: 2vh 5vw 4vh 5vw;
     flex: 1;
     border-radius: 25px;
     border: 2px solid black;
     margin: 16px;
+    position: relative;
 }
 
 .Project-box img {
@@ -18,9 +19,20 @@
     text-decoration: none;
 }
 
-.Flex-column {
+.Buttons-row {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 24px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 100%;
+}
+
+.Project-description {
+    padding-bottom: 24px;
 }
 
 @media only screen and (max-width: 800px) {

@@ -18,12 +18,12 @@ export default class ProjectBox extends Component {
                     {this.props.projectName}
                     <br></br>
                 </h1>
-                <h3>
+                <h3 className='Project-description'>
                     {this.props.projectDescription}
                 </h3>
 
                 <div
-                    className='Flex-column'>
+                    className='Buttons-row'>
                     {
                         this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('website') &&
                         <a
