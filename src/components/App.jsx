@@ -20,7 +20,7 @@ function App() {
 
       <ProjectsContainer>
         <ProjectBox projectName='Postify' projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course.' projectBanner={postifySite} bannerAlt='Postify banner logo' buttons={{ website: 'https://postify.yajatkumar.com', github: 'https://github.com/YAJATapps/Postify' }} />
-        <ProjectBox projectName='Messenger' projectDescription='The frontend of a test messenger. Not completed.' projectBanner={messengerSite} bannerAlt='Messenger banner logo' buttons={{ website: 'https://messenger.yajatkumar.com', github: 'https://github.com/YAJATapps/Messenger' }} />
+        <ProjectBox projectName='Messenger' projectDescription='A test messenger.' projectBanner={messengerSite} bannerAlt='Messenger banner logo' buttons={{ website: 'https://messenger.yajatkumar.com', github: 'https://github.com/YAJATapps/Messenger' }} />
       </ProjectsContainer>
 
       <ProjectsContainer>
