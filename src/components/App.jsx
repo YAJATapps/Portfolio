@@ -11,6 +11,8 @@ import pearBanner from './../img/pear-banner.png';
 import picscanBanner from './../img/picscan-banner.png';
 import weatherBanner from './../img/weather-banner.png';
 import reminderBanner from './../img/reminder-banner.png';
+import newsBanner from './../img/news-banner.png';
+import ticTacToeBanner from './../img/tictactoe-banner.png';
 
 // A function to return main screen of the app
 function App() {
@@ -36,6 +38,11 @@ function App() {
       <ProjectsContainer>
         <ProjectBox projectName='Weather App' projectDescription='University Project for Mobile App Development course.' projectBanner={weatherBanner} bannerAlt='Weather App banner logo' buttons={{ github: 'https://github.com/YAJATapps/WeatherApp' }} />
         <ProjectBox projectName='Reminder App' projectDescription='University Project for Human computer interaction course.' projectBanner={reminderBanner} bannerAlt='Reminder App banner logo' buttons={{ github: 'https://github.com/YAJATapps/ReminderApp' }} />
+      </ProjectsContainer>
+
+      <ProjectsContainer>
+        <ProjectBox projectName='News App' projectDescription='Android app written in Kotlin which uses REST APIs to get data from news API.' projectBanner={newsBanner} bannerAlt='News App banner logo' buttons={{  playstore: 'https://play.google.com/store/apps/details?id=com.yajatkumar.newsapp', github: 'https://github.com/YAJATapps/NewsApp' }} />
+        <ProjectBox projectName='TicTacToe' projectDescription='Made a Tic-tac-toe game, cross platform with swift that works on iOS and macOS.' projectBanner={ticTacToeBanner} bannerAlt='TicTacToe banner logo' buttons={{ github: 'https://github.com/YAJATapps/TicTacToe' }} />
       </ProjectsContainer>
 
       <Footer />
