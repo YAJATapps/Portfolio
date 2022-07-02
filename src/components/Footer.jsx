@@ -20,7 +20,7 @@ export default class Footer extends Component {
 
                     <a
                         className="Footer-link"
-                        href='mailto:yajatapps3@gmail.com'
+                        href='mailto:yajatcomputer@gmail.com'
                         target="_blank"
                         rel="noopener noreferrer">
                         Contact
