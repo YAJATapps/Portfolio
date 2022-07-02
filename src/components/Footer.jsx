@@ -31,7 +31,7 @@ export default class Footer extends Component {
                         href='https://github.com/YAJATapps/Portfolio'
                         target="_blank"
                         rel="noopener noreferrer">
-                        View Source
+                        GitHub
                     </a>
                 </div>
             </footer>
