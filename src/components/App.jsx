@@ -18,6 +18,7 @@ import newsBanner from './../img/news-banner.png';
 import ticTacToeBanner from './../img/tictactoe-banner.png';
 import EducationBox from './EductionBox';
 import SkillsBox from './SkillsBox';
+import ColorBox from './ColorBox';
 
 // A function to return main screen of the app
 function App() {
@@ -30,10 +31,12 @@ function App() {
         <AboutBox />
       </SectionBox>
 
-      <SectionTitle sectionName='Education' id='EducationScroll' />
-      <SectionBox>
-        <EducationBox />
-      </SectionBox>
+      <ColorBox boxColor='#f2f2f5'>
+        <SectionTitle sectionName='Education' id='EducationScroll' />
+        <SectionBox>
+          <EducationBox />
+        </SectionBox>
+      </ColorBox>
 
       <SectionTitle sectionName='Projects' id='ProjectsScroll' />
       <ProjectsContainer>
@@ -61,11 +64,12 @@ function App() {
         <ProjectBox projectName='TicTacToe' projectDescription='Made a Tic-tac-toe game, cross platform with swift that works on iOS and macOS.' projectBanner={ticTacToeBanner} bannerAlt='TicTacToe banner logo' buttons={{ github: 'https://github.com/YAJATapps/TicTacToe' }} />
       </ProjectsContainer>
 
-      <SectionTitle sectionName='Skills' id='SkillsScroll' />
-      <SectionBox>
-        <SkillsBox />
-      </SectionBox>
-
+      <ColorBox boxColor='#f2f2f5'>
+        <SectionTitle sectionName='Skills' id='SkillsScroll' />
+        <SectionBox>
+          <SkillsBox />
+        </SectionBox>
+      </ColorBox>
       <br />
 
       <Footer />
