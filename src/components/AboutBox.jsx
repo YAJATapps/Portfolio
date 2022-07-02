@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './../css/AboutBox.css';
 
-// A project box that contains project image, description and link buttons
+// A box that contains information about me
 export default class AboutBox extends Component {
 
     // Render this component

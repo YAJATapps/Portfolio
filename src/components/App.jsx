@@ -17,6 +17,7 @@ import reminderBanner from './../img/reminder-banner.png';
 import newsBanner from './../img/news-banner.png';
 import ticTacToeBanner from './../img/tictactoe-banner.png';
 import EducationBox from './EductionBox';
+import SkillsBox from './SkillsBox';
 
 // A function to return main screen of the app
 function App() {
@@ -59,6 +60,13 @@ function App() {
         <ProjectBox projectName='News App' projectDescription='Android app written in Kotlin which uses REST APIs to get data from news API.' projectBanner={newsBanner} bannerAlt='News App banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.yajatkumar.newsapp', github: 'https://github.com/YAJATapps/NewsApp' }} />
         <ProjectBox projectName='TicTacToe' projectDescription='Made a Tic-tac-toe game, cross platform with swift that works on iOS and macOS.' projectBanner={ticTacToeBanner} bannerAlt='TicTacToe banner logo' buttons={{ github: 'https://github.com/YAJATapps/TicTacToe' }} />
       </ProjectsContainer>
+
+      <SectionTitle sectionName='Skills' />
+      <SectionBox>
+        <SkillsBox />
+      </SectionBox>
+
+      <br />
 
       <Footer />
     </>

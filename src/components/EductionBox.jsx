@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './../css/EducationBox.css';
 
-// A project box that contains project image, description and link buttons
+// A box that contains information about my education
 export default class EducationBox extends Component {
 
     // Render this component
@@ -17,7 +17,7 @@ export default class EducationBox extends Component {
                     <h1 className='Right-text'>Bachelor of Computing Science</h1>
                 </div>
 
-                <ul>
+                <ul className='Fonts-size'>
                     <li>Key Courses: Data Structures, Algorithms, Web systems, Mobile App, OOP in C++</li>
                     <li>GPA: 4 (on 4.33 scale)</li>
                     <li>Dean’s list recognition (4 times)</li>

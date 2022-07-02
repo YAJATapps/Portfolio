@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './../css/SectionTitle.css';
 
-// A project box that contains project image, description and link buttons
+// A title for the section
 export default class SectionTitle extends Component {
 
     // Render this component
