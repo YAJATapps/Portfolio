@@ -1,6 +1,7 @@
 import Header from './Header';
 import ProjectBox from './ProjectBox';
 import ProjectsContainer from './ProjectsContainer';
+import SectionTitle from './SectionTitle';
 import Footer from './Footer';
 
 import postifySite from './../img/postify-site.png';
@@ -20,6 +21,13 @@ function App() {
     <>
       <Header />
 
+      <SectionTitle sectionName='Projects' />
+
+      <ProjectsContainer>
+        <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
+        <ProjectBox projectName='PicScan' projectDescription='Document Scanner App.' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.picscan' }} />
+      </ProjectsContainer>
+
       <ProjectsContainer>
         <ProjectBox projectName='Postify' projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course.' projectBanner={postifySite} bannerAlt='Postify banner logo' buttons={{ website: 'https://postify.yajatkumar.com', github: 'https://github.com/YAJATapps/Postify' }} />
         <ProjectBox projectName='Messenger' projectDescription='A test messenger.' projectBanner={messengerSite} bannerAlt='Messenger banner logo' buttons={{ website: 'https://messenger.yajatkumar.com', github: 'https://github.com/YAJATapps/Messenger' }} />
@@ -31,17 +39,12 @@ function App() {
       </ProjectsContainer>
 
       <ProjectsContainer>
-        <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
-        <ProjectBox projectName='PicScan' projectDescription='Document Scanner App.' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.picscan' }} />
-      </ProjectsContainer>
-
-      <ProjectsContainer>
         <ProjectBox projectName='Weather App' projectDescription='University Project for Mobile App Development course.' projectBanner={weatherBanner} bannerAlt='Weather App banner logo' buttons={{ github: 'https://github.com/YAJATapps/WeatherApp' }} />
         <ProjectBox projectName='Reminder App' projectDescription='University Project for Human computer interaction course.' projectBanner={reminderBanner} bannerAlt='Reminder App banner logo' buttons={{ github: 'https://github.com/YAJATapps/ReminderApp' }} />
       </ProjectsContainer>
 
       <ProjectsContainer>
-        <ProjectBox projectName='News App' projectDescription='Android app written in Kotlin which uses REST APIs to get data from news API.' projectBanner={newsBanner} bannerAlt='News App banner logo' buttons={{  playstore: 'https://play.google.com/store/apps/details?id=com.yajatkumar.newsapp', github: 'https://github.com/YAJATapps/NewsApp' }} />
+        <ProjectBox projectName='News App' projectDescription='Android app written in Kotlin which uses REST APIs to get data from news API.' projectBanner={newsBanner} bannerAlt='News App banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.yajatkumar.newsapp', github: 'https://github.com/YAJATapps/NewsApp' }} />
         <ProjectBox projectName='TicTacToe' projectDescription='Made a Tic-tac-toe game, cross platform with swift that works on iOS and macOS.' projectBanner={ticTacToeBanner} bannerAlt='TicTacToe banner logo' buttons={{ github: 'https://github.com/YAJATapps/TicTacToe' }} />
       </ProjectsContainer>
 
