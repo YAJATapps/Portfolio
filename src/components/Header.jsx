@@ -1,17 +1,8 @@
 import React, { Component } from 'react'
 import './../css/Header.css';
-import resumeLink from './../assets/Yajat_Kumar-Resume.pdf';
 
 // The header with icon and text
 export default class Header extends Component {
-
-    downloadResume() {
-        const link = document.createElement('a');
-        link.href = resumeLink;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    }
 
     // Render this component
     render() {
@@ -29,11 +20,13 @@ export default class Header extends Component {
                     </h2>
                     <div
                         className="Div-center">
-                        <button
+                        <a
                             className="Button"
-                            onClick={this.downloadResume}>
+                            href="https://github.com/YAJATapps/Portfolio/raw/main/assets/Yajat_Kumar-Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             Download Resume
-                        </button>
+                        </a>
                     </div>
                 </div>
             </header>
