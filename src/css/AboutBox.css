@@ -1,0 +1,11 @@
+.About-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.About-text {
+    font-size: 18pt;
+    font-weight: normal;
+}

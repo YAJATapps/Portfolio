@@ -3,6 +3,7 @@ import ProjectBox from './ProjectBox';
 import ProjectsContainer from './ProjectsContainer';
 import SectionTitle from './SectionTitle';
 import SectionBox from './SectionBox';
+import AboutBox from './AboutBox';
 import Footer from './Footer';
 
 import postifySite from './../img/postify-site.png';
@@ -22,6 +23,11 @@ function App() {
   return (
     <>
       <Header />
+
+      <SectionTitle sectionName='About me' />
+      <SectionBox>
+        <AboutBox />
+      </SectionBox>
 
       <SectionTitle sectionName='Education' />
       <SectionBox>
