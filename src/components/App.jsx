@@ -2,6 +2,7 @@ import Header from './Header';
 import ProjectBox from './ProjectBox';
 import ProjectsContainer from './ProjectsContainer';
 import SectionTitle from './SectionTitle';
+import SectionBox from './SectionBox';
 import Footer from './Footer';
 
 import postifySite from './../img/postify-site.png';
@@ -14,6 +15,7 @@ import weatherBanner from './../img/weather-banner.png';
 import reminderBanner from './../img/reminder-banner.png';
 import newsBanner from './../img/news-banner.png';
 import ticTacToeBanner from './../img/tictactoe-banner.png';
+import EducationBox from './EductionBox';
 
 // A function to return main screen of the app
 function App() {
@@ -21,8 +23,12 @@ function App() {
     <>
       <Header />
 
-      <SectionTitle sectionName='Projects' />
+      <SectionTitle sectionName='Education' />
+      <SectionBox>
+        <EducationBox />
+      </SectionBox>
 
+      <SectionTitle sectionName='Projects' />
       <ProjectsContainer>
         <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
         <ProjectBox projectName='PicScan' projectDescription='Document Scanner App.' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.picscan' }} />

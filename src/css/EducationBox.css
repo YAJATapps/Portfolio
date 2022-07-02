@@ -1,0 +1,22 @@
+/* .Education-box {} */
+
+.Uni-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.Left-text {
+    color: #000;
+    font-size: 18pt;
+}
+
+.Right-text {
+    color: gray;
+    font-size: 16pt;
+}
+
+.Degree-box {
+    margin-left: 24px;
+}
