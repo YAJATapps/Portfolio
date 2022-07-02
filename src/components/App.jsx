@@ -25,17 +25,17 @@ function App() {
     <>
       <Header />
 
-      <SectionTitle sectionName='About me' />
+      <SectionTitle sectionName='About me' id='AboutScroll' />
       <SectionBox>
         <AboutBox />
       </SectionBox>
 
-      <SectionTitle sectionName='Education' />
+      <SectionTitle sectionName='Education' id='EducationScroll' />
       <SectionBox>
         <EducationBox />
       </SectionBox>
 
-      <SectionTitle sectionName='Projects' />
+      <SectionTitle sectionName='Projects' id='ProjectsScroll' />
       <ProjectsContainer>
         <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
         <ProjectBox projectName='PicScan' projectDescription='Document Scanner App.' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.picscan' }} />
@@ -61,7 +61,7 @@ function App() {
         <ProjectBox projectName='TicTacToe' projectDescription='Made a Tic-tac-toe game, cross platform with swift that works on iOS and macOS.' projectBanner={ticTacToeBanner} bannerAlt='TicTacToe banner logo' buttons={{ github: 'https://github.com/YAJATapps/TicTacToe' }} />
       </ProjectsContainer>
 
-      <SectionTitle sectionName='Skills' />
+      <SectionTitle sectionName='Skills' id='SkillsScroll' />
       <SectionBox>
         <SkillsBox />
       </SectionBox>

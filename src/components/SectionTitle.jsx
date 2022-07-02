@@ -8,7 +8,7 @@ export default class SectionTitle extends Component {
     render() {
         return (
             <div
-                className='Section-title'>
+                className='Section-title' id={this.props.id}>
                 <h1
                     className='Section-h1'>
                     {this.props.sectionName}
