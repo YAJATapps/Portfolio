@@ -52,6 +52,13 @@ export default class Header extends Component {
                                 target='_blank'
                                 rel='noopener noreferrer'>
                                 Download Resume
+                            </a> 
+                            <a
+                                className='Button'
+                                href='https://www.linkedin.com/in/yajatkumar/'
+                                target='_blank'
+                                rel='noopener noreferrer'>
+                                View LinkedIn
                             </a>
                         </div>
                     </div>
