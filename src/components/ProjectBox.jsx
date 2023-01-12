@@ -1,8 +1,21 @@
 import React, { Component } from 'react'
 import './../css/ProjectBox.css';
+import ImageCarousel from './ImageCarousel';
 
 // A project box that contains project image, description and link buttons
 export default class ProjectBox extends Component {
+
+    constructor(props) {
+        super(props);
+
+        // The state that contain modalItem
+        this.state = {
+            modalItem: 0
+        };
+
+        this.handleClick = this.handleClick.bind(this);
+        this.removeCarousel = this.removeCarousel.bind(this);
+    }
 
     // Render this component
     render() {
@@ -24,6 +37,7 @@ export default class ProjectBox extends Component {
 
                 <div
                     className='Buttons-row'>
+
                     {
                         this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('website') &&
                         <a
@@ -33,6 +47,18 @@ export default class ProjectBox extends Component {
                             rel="noopener noreferrer">
                             Website
                         </a>
+                    }
+                    {
+                        this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('images') &&
+                        <a
+                            className="App-link"
+                            onClick={this.handleClick}>
+                            Website Screenshots
+                        </a>
+                    }
+                    {
+                        this.state.modalItem != 0 &&
+                        <ImageCarousel images={this.props.buttons.images} removeCarousel={this.removeCarousel} />
                     }
                     {
                         this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('playstore') &&
@@ -58,6 +84,22 @@ export default class ProjectBox extends Component {
                 </div>
             </div>
         )
+    }
+
+    handleClick() {
+        this.setState({
+            modalItem: 1
+        });
+
+        setTimeout(() => {
+            document.getElementById("myModal").style.display = "block";
+        }, "500");
+    }
+
+    removeCarousel() {
+        this.setState({
+            modalItem: 0
+        });
     }
 
 }
