@@ -45,8 +45,34 @@ function App() {
       </ProjectsContainer>
 
       <ProjectsContainer>
-        <ProjectBox projectName='Postify' projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course.' projectBanner={postifySite} bannerAlt='Postify banner logo' buttons={{ website: 'https://postify.yajatkumar.com', github: 'https://github.com/YAJATapps/Postify' }} />
-        <ProjectBox projectName='Messenger' projectDescription='A test messenger.' projectBanner={messengerSite} bannerAlt='Messenger banner logo' buttons={{ website: 'https://messenger.yajatkumar.com', github: 'https://github.com/YAJATapps/Messenger' }} />
+        <ProjectBox
+          projectName='Postify'
+          projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course.'
+          projectBanner={postifySite}
+          bannerAlt='Postify banner logo'
+          buttons={{
+            website: 'https://postify.yajatkumar.com',
+            github: 'https://github.com/YAJATapps/Postify',
+            images: ['https://github.com/YAJATapps/Postify/raw/main/screenshots/1.png',
+              'https://github.com/YAJATapps/Postify/raw/main/screenshots/2.png',
+              'https://github.com/YAJATapps/Postify/raw/main/screenshots/3.png',
+              'https://github.com/YAJATapps/Postify/raw/main/screenshots/4.png',
+              'https://github.com/YAJATapps/Postify/raw/main/screenshots/5.png']
+          }} />
+        <ProjectBox
+          projectName='Messenger'
+          projectDescription='A test messenger.'
+          projectBanner={messengerSite}
+          bannerAlt='Messenger banner logo'
+          buttons={{
+            website: 'https://messenger.yajatkumar.com',
+            github: 'https://github.com/YAJATapps/Messenger',
+            images: ['https://github.com/YAJATapps/Messenger/raw/main/screenshots/1.png',
+              'https://github.com/YAJATapps/Messenger/raw/main/screenshots/2.png',
+              'https://github.com/YAJATapps/Messenger/raw/main/screenshots/3.png',
+              'https://github.com/YAJATapps/Messenger/raw/main/screenshots/4.png',
+              'https://github.com/YAJATapps/Messenger/raw/main/screenshots/5.png']
+          }} />
       </ProjectsContainer>
 
       <ProjectsContainer>

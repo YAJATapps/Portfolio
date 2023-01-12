@@ -53,7 +53,7 @@ export default class ProjectBox extends Component {
                         <a
                             className="App-link"
                             onClick={this.handleClick}>
-                            Website Screenshots
+                            Screenshots
                         </a>
                     }
                     {
