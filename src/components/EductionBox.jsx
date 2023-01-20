@@ -20,7 +20,7 @@ export default class EducationBox extends Component {
                 <ul className='Fonts-size'>
                     <li>Key Courses: Data Structures, Algorithms, Web systems, Mobile App, OOP in C++, IoT</li>
                     <li>GPA: 4.04 / 4.33</li>
-                    <li>Dean’s list recognition (5 times)</li>
+                    <li>Dean’s list recognition (6 times)</li>
                 </ul>
 
                 <br/>
