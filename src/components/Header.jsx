@@ -42,7 +42,7 @@ export default class Header extends Component {
                         </h1>
                         <h2
                             className='Title-name'>
-                            Software Developer (Student)
+                            Network Software Engineer at Ciena
                         </h2>
                         <div
                             className='Div-center'>
