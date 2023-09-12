@@ -41,7 +41,14 @@ function App() {
       <SectionTitle sectionName='Projects' id='ProjectsScroll' />
       <ProjectsContainer>
         <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
-        <ProjectBox projectName='PicScan' projectDescription='Document Scanner App.' projectBanner={picscanBanner} bannerAlt='PicScan banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.picscan' }} />
+        <ProjectBox
+          projectName='PicScan'
+          projectDescription='Document Scanner App.'
+          projectBanner={picscanBanner}
+          bannerAlt='PicScan banner logo'
+          /*buttons={{ 
+            github: 'https://github.com/YAJATapps/PicScan' }
+          }*/ />
       </ProjectsContainer>
 
       <ProjectsContainer>
