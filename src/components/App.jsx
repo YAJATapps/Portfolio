@@ -46,9 +46,9 @@ function App() {
           projectDescription='Document Scanner App.'
           projectBanner={picscanBanner}
           bannerAlt='PicScan banner logo'
-          /*buttons={{ 
-            github: 'https://github.com/YAJATapps/PicScan' }
-          }*/ />
+          buttons={{
+            website: 'https://github.com/YAJATapps/Portfolio/blob/main/assets/Postify/README.md',  }
+          } />
       </ProjectsContainer>
 
       <ProjectsContainer>
