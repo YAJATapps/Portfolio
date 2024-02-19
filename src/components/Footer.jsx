@@ -15,7 +15,7 @@ export default class Footer extends Component {
 
                     <span
                         className='copyright'>
-                        &#169; 2023 Yajat Kumar
+                        &#169; 2024 Yajat Kumar
                     </span>
 
                     <a
