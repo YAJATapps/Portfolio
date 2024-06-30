@@ -33,13 +33,14 @@ export default class ProjectBox extends Component {
                 </h1>
                 <h3 className='Project-description'>
                     {this.props.projectDescription}
+                    {this.props.customHosted && !this.props.hosted && ' No longer hosted, see screenshots or compile from source.'}
                 </h3>
 
                 <div
                     className='Buttons-row'>
 
                     {
-                        this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('website') &&
+                        this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('website') && (!this.props.customHosted || this.props.hosted) &&
                         <a
                             className="App-link"
                             href={this.props.buttons.website}

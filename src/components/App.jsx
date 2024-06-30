@@ -22,6 +22,8 @@ import ColorBox from './ColorBox';
 
 // A function to return main screen of the app
 function App() {
+  const postifyHosted = process.env.REACT_POSTIFY_HOSTED === 'true';
+  const messengerHosted = process.env.REACT_MESSENGER_HOSTED === 'true';
   return (
     <>
       <Header />
@@ -54,10 +56,13 @@ function App() {
       <ProjectsContainer>
         <ProjectBox
           projectName='Postify'
-          projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course. No longer hosted, see screenshots or compile from source.'
+          projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course.'
           projectBanner={postifySite}
+          customHosted={true}
+          hosted={postifyHosted}
           bannerAlt='Postify banner logo'
           buttons={{
+            website: 'https://postify.yajatkumar.com',
             github: 'https://github.com/YAJATapps/Postify',
             images: ['https://github.com/YAJATapps/Postify/raw/main/screenshots/1.png',
               'https://github.com/YAJATapps/Postify/raw/main/screenshots/2.png',
@@ -67,10 +72,13 @@ function App() {
           }} />
         <ProjectBox
           projectName='Messenger'
-          projectDescription='A test messenger. No longer hosted, see screenshots or compile from source.'
+          projectDescription='A test messenger.'
           projectBanner={messengerSite}
+          customHosted={true}
+          hosted={messengerHosted}
           bannerAlt='Messenger banner logo'
           buttons={{
+            website: 'https://messenger.yajatkumar.com',
             github: 'https://github.com/YAJATapps/Messenger',
             images: ['https://github.com/YAJATapps/Messenger/raw/main/screenshots/1.png',
               'https://github.com/YAJATapps/Messenger/raw/main/screenshots/2.png',
