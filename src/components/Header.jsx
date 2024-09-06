@@ -31,11 +31,6 @@ export default class Header extends Component {
                         href='#SkillsScroll'>
                         Skills
                     </a>
-                    <a
-                        className='Button-scroll'
-                        href='https://blogs.yajatkumar.com'>
-                        Blogs
-                    </a>
                 </div>
 
                 <div
