@@ -61,6 +61,17 @@ export default class Header extends Component {
                                 View LinkedIn
                             </a>
                         </div>
+                        <br></br>
+                        <div
+                            className='Div-center'>
+                            <a
+                                className='Button'
+                                href='https://blogs.yajatkumar.com'
+                                target='_blank'
+                                rel='noopener noreferrer'>
+                                View Blogs
+                            </a>
+                        </div>
                     </div>
                 </div>
             </header>
