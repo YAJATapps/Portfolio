@@ -15,7 +15,7 @@ export default class Footer extends Component {
 
                     <span
                         className='copyright'>
-                        &#169; 2025 Yajat Kumar
+                        &#169; {new Date().getFullYear()} Yajat Kumar
                     </span>
 
                     <a

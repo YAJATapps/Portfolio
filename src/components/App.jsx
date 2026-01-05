@@ -22,8 +22,8 @@ import ColorBox from './ColorBox';
 
 // A function to return main screen of the app
 function App() {
-  const postifyHosted = process.env.REACT_APP_POSTIFY_HOSTED === 'true';
-  const messengerHosted = process.env.REACT_APP_MESSENGER_HOSTED === 'true';
+  const postifyHosted = import.meta.env.VITE_POSTIFY_HOSTED === 'true';
+  const messengerHosted = import.meta.env.VITE_MESSENGER_HOSTED === 'true';
   return (
     <>
       <Header />
