@@ -10,6 +10,7 @@ import postifySite from './../img/postify-site.png';
 import messengerSite from './../img/messenger-site.png';
 import weatherSite from './../img/weather-site.png';
 import pearBanner from './../img/pear-banner.png';
+import unoBanner from './../img/uno-banner.jpg';
 import picscanBanner from './../img/picscan-banner.png';
 import weatherBanner from './../img/weather-banner.png';
 import reminderBanner from './../img/reminder-banner.png';
@@ -45,6 +46,9 @@ function App() {
         <ProjectBox
           projectName='Android Bring-Up Lab'
           projectDescription='Open source Android platform work for Arduino Uno Q and Orange Pi Zero 2W / 3, including device trees, kernels, vendor configuration, drivers, and reproducible build manifests.'
+          projectBanner={unoBanner}
+          bannerAlt='Arduino Uno Q banner'
+          bannerClassName='portrait-banner'
           buttons={{ github: 'https://github.com/YAJATapps/android_device_arduino_imola' }} />
       </ProjectsContainer>
 

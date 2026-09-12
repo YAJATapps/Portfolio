@@ -25,7 +25,7 @@ export default class ProjectBox extends Component {
                 {this.props.projectBanner &&
                     <img
                         src={this.props.projectBanner}
-                        className="App-logo"
+                        className={`App-logo ${this.props.bannerClassName || ''}`}
                         alt={this.props.bannerAlt} />
                 }
 
