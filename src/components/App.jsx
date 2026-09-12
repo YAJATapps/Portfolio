@@ -43,6 +43,11 @@ function App() {
       <SectionTitle sectionName='Projects' id='ProjectsScroll' />
       <ProjectsContainer>
         <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
+        <ProjectBox projectName='Pear Launcher Website' projectDescription='Website for Pear Launcher.' projectBanner={pearSite} bannerAlt='Pear Launcher Site banner logo' buttons={{ website: 'https://pearlauncher.github.io/about.html', github: 'https://github.com/PearLauncher/pearlauncher.github.io' }} />
+      </ProjectsContainer>
+
+      <SectionTitle sectionName='Old projects' />
+      <ProjectsContainer>
         <ProjectBox
           projectName='PicScan'
           projectDescription='Document Scanner App.'
@@ -51,9 +56,6 @@ function App() {
           buttons={{
             website: 'https://github.com/YAJATapps/Portfolio/blob/main/assets/Postify/README.md',  }
           } />
-      </ProjectsContainer>
-
-      <ProjectsContainer>
         <ProjectBox
           projectName='Postify'
           projectDescription='A basic social media website written with PHP. University Project for Advanced Web Development course.'
@@ -70,6 +72,9 @@ function App() {
               'https://github.com/YAJATapps/Postify/raw/main/screenshots/4.png',
               'https://github.com/YAJATapps/Postify/raw/main/screenshots/5.png']
           }} />
+      </ProjectsContainer>
+
+      <ProjectsContainer>
         <ProjectBox
           projectName='Messenger'
           projectDescription='A test messenger.'
@@ -86,10 +91,6 @@ function App() {
               'https://github.com/YAJATapps/Messenger/raw/main/screenshots/4.png',
               'https://github.com/YAJATapps/Messenger/raw/main/screenshots/5.png']
           }} />
-      </ProjectsContainer>
-
-      <ProjectsContainer>
-        <ProjectBox projectName='Pear Launcher Website' projectDescription='Website for Pear Launcher.' projectBanner={pearSite} bannerAlt='Pear Launcher Site banner logo' buttons={{ website: 'https://pearlauncher.github.io/about.html', github: 'https://github.com/PearLauncher/pearlauncher.github.io' }} />
         <ProjectBox projectName='Weather Site' projectDescription='A react app that uses open weather map API.' projectBanner={weatherSite} bannerAlt='Weather site banner logo' buttons={{ website: 'https://weathersite.yajatkumar.com', github: 'https://github.com/YAJATapps/WeatherSite' }} />
       </ProjectsContainer>
 
