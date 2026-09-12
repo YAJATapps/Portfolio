@@ -22,10 +22,12 @@ export default class ProjectBox extends Component {
         return (
             <div
                 className='Project-box'>
-                <img
-                    src={this.props.projectBanner}
-                    className="App-logo"
-                    alt={this.props.bannerAlt} />
+                {this.props.projectBanner &&
+                    <img
+                        src={this.props.projectBanner}
+                        className="App-logo"
+                        alt={this.props.bannerAlt} />
+                }
 
                 <h1>
                     {this.props.projectName}
@@ -39,6 +41,16 @@ export default class ProjectBox extends Component {
                 <div
                     className='Buttons-row'>
 
+                    {
+                        this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('playstore') &&
+                        <a
+                            className="App-link"
+                            href={this.props.buttons.playstore}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Play Store
+                        </a>
+                    }
                     {
                         this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('website') && (!this.props.customHosted || this.props.hosted) &&
                         <a
@@ -60,16 +72,6 @@ export default class ProjectBox extends Component {
                     {
                         this.state.modalItem != 0 &&
                         <ImageCarousel images={this.props.buttons.images} removeCarousel={this.removeCarousel} />
-                    }
-                    {
-                        this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('playstore') &&
-                        <a
-                            className="App-link"
-                            href={this.props.buttons.playstore}
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Play Store
-                        </a>
                     }
                     {
                         this.props.buttons !== undefined && this.props.buttons.hasOwnProperty('github') &&

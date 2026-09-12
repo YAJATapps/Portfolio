@@ -8,7 +8,6 @@ import Footer from './Footer';
 
 import postifySite from './../img/postify-site.png';
 import messengerSite from './../img/messenger-site.png';
-import pearSite from './../img/pear-site.png';
 import weatherSite from './../img/weather-site.png';
 import pearBanner from './../img/pear-banner.png';
 import picscanBanner from './../img/picscan-banner.png';
@@ -42,8 +41,11 @@ function App() {
 
       <SectionTitle sectionName='Projects' id='ProjectsScroll' />
       <ProjectsContainer>
-        <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
-        <ProjectBox projectName='Pear Launcher Website' projectDescription='Website for Pear Launcher.' projectBanner={pearSite} bannerAlt='Pear Launcher Site banner logo' buttons={{ website: 'https://pearlauncher.github.io/about.html', github: 'https://github.com/PearLauncher/pearlauncher.github.io' }} />
+        <ProjectBox projectName='Pear Launcher' projectDescription='Android Launcher App.' projectBanner={pearBanner} bannerAlt='Pear Launcher banner logo' buttons={{ website: 'https://pearlauncher.github.io/about.html', playstore: 'https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher' }} />
+        <ProjectBox
+          projectName='Android Bring-Up Lab'
+          projectDescription='Open source Android platform work for Arduino Uno Q and Orange Pi Zero 2W / 3, including device trees, kernels, vendor configuration, drivers, and reproducible build manifests.'
+          buttons={{ github: 'https://github.com/YAJATapps/android_device_arduino_imola' }} />
       </ProjectsContainer>
 
       <SectionTitle sectionName='Old projects' />

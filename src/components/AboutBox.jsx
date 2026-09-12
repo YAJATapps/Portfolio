@@ -10,11 +10,10 @@ export default class AboutBox extends Component {
             <div
                 className='About-box'>
                 <h1 className='About-text'>
-                    Graduated with a degree in Bachelor of Computing Science from Thompson Rivers University - Dec 2022. <br />
-                    I work on the development of distributed control-plane software. <br />
-                    I have experience with android mobile app development and web development. <br />
-                    My app <a href="https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher">Pear Launcher</a> has 1M+ installs • 25K+ active users. <br />
-                    My open source projects are hosted on my <a href="https://github.com/YAJATapps"> GitHub</a>  repository. <br />
+                    I am an AI, systems, and platform developer working across networking, Android, and embedded Linux. <br />
+                    My work includes operating-system bring-up, distributed software, performance-focused C/C++, and automation with Python and Docker. <br />
+                    I maintain <a href="https://play.google.com/store/apps/details?id=com.pearlauncher.pearlauncher">Pear Launcher</a>, an Android home-screen replacement with 1M+ installs and 25K+ active users. <br />
+                    My open source projects are hosted on my <a href="https://github.com/YAJATapps">GitHub</a> repository. <br />
                 </h1>
 
                 <br />

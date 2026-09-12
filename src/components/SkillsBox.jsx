@@ -11,11 +11,11 @@ export default class SkillsBox extends Component {
                 className='About-box'>
                 <h1 className='About-text'>
                     <ul>
-                        <li>Languages: C, C++, Java, Python, JavaScript, Kotlin, C#, PHP, Swift</li>
-                        <li>Cloud: AWS, Serverless platform, Virtual machines, API gateway, DNS, and Web app deployment</li>
-                        <li>Web: React, NodeJS, FastAPI, jQuery, Bootstrap, Ajax, HTML5, CSS</li>
-                        <li>Databases: MySQL, MongoDB, Oracle</li>
-                        <li>Technologies: Firebase, Google cloud platform and Azure virtual machines</li>
+                        <li>Systems: C, C++, Linux, concurrency, distributed systems, networking, and performance engineering</li>
+                        <li>Android and embedded: Java, Kotlin, AOSP, GKI, device trees, kernels, drivers, and Mesa/Panfrost</li>
+                        <li>AI and automation: Python, Docker, GDB, packet analysis, LLM integration, and test automation</li>
+                        <li>Web and product: JavaScript, React, NodeJS, FastAPI, PHP, MySQL, MongoDB, and REST APIs</li>
+                        <li>Cloud: AWS, serverless platforms, virtual machines, API Gateway, DNS, and web app deployment</li>
                     </ul>
                 </h1>
 
